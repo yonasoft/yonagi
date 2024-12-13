@@ -37,8 +37,7 @@ class JMDictService {
   Future<List<JMDictEntry?>> getAll(List<int> ids) async {
     try {
       final result = await Future.wait(ids.map((id) async {
-        final entry = _dictionary.getById(id);
-        return entry;
+        return _dictionary.getById(id);
       }));
       return result.where((entry) => entry != null).toList();
     } catch (e) {

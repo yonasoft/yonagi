@@ -12,17 +12,12 @@ Future<void> main() async {
   final kanjiDictionaryService = KanjiDictService();
   await kanjiDictionaryService.initialize();
 
-  // Example search and fetch details
   // const word = "言葉";
   // final results = await dictionaryService.search(word);
-  // if (results != null && results.isNotEmpty) {
-  //   print("Search Results:");
-  //   for (var result in results) {
-  //     print(result.kanjiElements?.first.element);
-  //   }
-  // } else {
-  //   print("No search results found.");
-  // }
+  // print('Search results for "$word": ${results?.length} entries');
+  // final id = results?.first.entrySequence;
+  // final res = await dictionaryService.get(id!);
+  // print('$id: ${res?.kanjiElements?.first.element}');
 
   // final character = kanjiDictionaryService.getCharacter('亜')?;
   // print(character.literal);
