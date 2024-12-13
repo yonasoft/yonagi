@@ -1,5 +1,5 @@
-name: yonagi_native
-description: 'A new Flutter project.'
+name: yonagi
+description: 'A japanese dictionary application'
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -35,7 +35,6 @@ dependencies:
   cupertino_icons: ^1.0.8
   jm_dict: ^0.2.0
   kanji_dictionary: ^1.0.5+1
-  jm_dict: ^0.2.0
 
 dev_dependencies:
   flutter_test:
