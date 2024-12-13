@@ -1,0 +1,14 @@
+name: jlpt_list_generator
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  xml: ^6.3.0             
+  archive: ^3.3.0         
+  convert: ^3.1.0   
+  path_provider: ^2.0.11
+  kanji_dictionary: ^1.0.5+1
+dev_dependencies:
+  lints: ^2.0.0
