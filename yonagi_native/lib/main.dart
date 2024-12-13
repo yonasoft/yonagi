@@ -14,10 +14,12 @@ Future<void> main() async {
 
   // const word = "言葉";
   // final results = await dictionaryService.search(word);
+
   // print('Search results for "$word": ${results?.length} entries');
   // final id = results?.first.entrySequence;
   // final res = await dictionaryService.get(id!);
   // print('$id: ${res?.kanjiElements?.first.element}');
+
 
   // final character = kanjiDictionaryService.getCharacter('亜')?;
   // print(character.literal);

@@ -1,6 +1,7 @@
 import 'package:yonagi_native/src/models/dictionary_list.dart';
 
 class DictionaryListCategory {
+
   DictionaryListCategory({
     required this.id,
     this.premade = false,
@@ -16,4 +17,5 @@ class DictionaryListCategory {
   DateTime? lastUsed;
   List<int> listIds;
   List<DictionaryList> lists;
+
 }
